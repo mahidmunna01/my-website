@@ -6,6 +6,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:"wdth" 100;
+  background-color: #0D1117;
 }
 
 *{
@@ -14,11 +15,10 @@
 }
 
 .header{
-  background: url(developer.png), url(header_bg.png);
+  padding-top: 2%;
   background-repeat: no-repeat;
-  background-position: center left, bottom right;
-  padding-top: 40px;
-  background-color: #FFF8F3;
+  background-color: #010409;
+  height: 1000px;
 }
 
 /* Navigation Design */
@@ -31,14 +31,14 @@ nav{
 
 nav h3{
   font-size: 45px;
-  color: #181818;
+  color: white;
 }
 .dark-color{
-  color:#181818;
+  color:white;
 }
 .btn-color{
   color:white;
-  background-color: #FD6E0A;
+  background-color: #FF3131;
   padding: 15px 35px;
   font-size: 20px;
   border: 1px solid;
@@ -47,12 +47,13 @@ nav h3{
   cursor: pointer;
 }
 .btn2-color{
-  color:#FD6E0A;
+  color: #FF3131;
   background-color: #FFF8F3;
   cursor: pointer;
 }
 nav h3 span{
-  color: #FD6E0A;
+  /* color: #FD6E0A; */
+  color: #FF3131;
 }
 nav ul {
   display: flex;
@@ -66,6 +67,7 @@ nav ul li{
 nav ul li a{
   font-size: 20px;
   text-decoration: none;
+
 }
 
 
@@ -74,7 +76,7 @@ nav ul li a{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2% 5% 0% 10%;
+  margin: 7% 5% 0% 10%;
 }
 
 .banner-content{
@@ -85,17 +87,22 @@ nav ul li a{
 
 .banner-welcome{
   font-size: 45px;
+  color: white;
 }
 .banner-title{
   font-size: 85px;
+  color: white;
 }
 .banner-description{
   font-size: 28px;
   color: 757575;
   padding-right: 20%;
+  color: white;
 }
 .banner-profile-pic{
-  width: 580px;
+  width: 800px;
+  border: 3px solid white;
+  border-radius: 50%;
 }
 .banner-content button{
   margin-right: 20px;
@@ -108,7 +115,7 @@ main{
 }
 
 .about{
-  background-color: #FFF8F3;
+  background-color: #010409;
   text-align: center;
   padding: 120px 130px;
   margin: 130px 0px;
@@ -118,14 +125,15 @@ main{
   justify-content: center;
   align-items: center;
   gap: 40px;
+  color: white;
 }
 .about-title{
   font-size: 35px;
-  color: #181818;
+  color: white;
 }
 .about-description{
  font-size: 18px;
- color: #757575;
+ color: white;
 }
 .about-items p{
   font-size: 20px;
@@ -159,6 +167,13 @@ main{
   background-color: rgb(246, 243, 243);
   border-radius: 5px;
 }
+
+.tech:hover{
+  background-color: #FF3131;
+  cursor: pointer;
+  color: white;
+}
+
 .tech h1{
  font-size: 20px;
 }
@@ -177,12 +192,13 @@ main{
 .education-degree{
   font-size: 30px;
   font-weight: bold;
-  color: #FD6E0A;
+  /* color: #FD6E0A; */
+  color: #FF3131;
 }
 .degree{
   font-size: 25px;
-  color: #757575;
-  color: crimson;
+  color: white;
+  /* color: #FF3131; */
 }
 
 .institution{
@@ -220,11 +236,9 @@ main{
 }
 
 
-
-
 /* Footer Part Design */
 footer{
-  background-color: #FFF8F3;
+  background-color: #010409;
 }
 .footer-section-description{
   padding-right: 20%;
@@ -272,15 +286,18 @@ form textarea{
 .fa-brands{
   margin-right: 15px;
   font-size: 25px;
-  color: #FD6E0A;
+  /* color: #FD6E0A; */
+  color: #FF3131;
 }
 .copyright{
   text-align: center;
   font-size: 20px;
   margin-bottom: 10px;
+  background-color: white;
 }
 .copyright a{
   text-decoration: none;
-  color: #FD6E0A;
-  font-weight: bold;
+  /* color: #FD6E0A; */
+  color: #FF3131;
+  font-weight: 500;
 }
