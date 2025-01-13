@@ -271,6 +271,18 @@ form input{
   border-radius: 7px;
   border: none;
 }
+input:focus{
+  border: 2px solid #FF3131;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+textarea:focus{
+  border: 2px solid #FF3131;
+  outline: none;
+  background-color: black;
+  color: white;
+}
 ::placeholder{
   font-size: 18px;
 }
@@ -289,10 +301,12 @@ form textarea{
   /* color: #FD6E0A; */
   color: #FF3131;
 }
+.fa-brands:hover{
+ color: white;
+}
 .copyright{
   text-align: center;
   font-size: 20px;
-  margin-bottom: 10px;
   background-color: white;
 }
 .copyright a{
