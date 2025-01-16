@@ -3,6 +3,7 @@
 
 .open-sans {
   font-family: "Open Sans", serif;
+  font-family: cursive;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:"wdth" 100;
@@ -38,7 +39,7 @@ nav h3{
 }
 .btn-color{
   color:white;
-  background-color: #FF3131;
+  background-color: #9C77EE;
   padding: 15px 35px;
   font-size: 20px;
   border: 1px solid;
@@ -47,13 +48,13 @@ nav h3{
   cursor: pointer;
 }
 .btn2-color{
-  color: #FF3131;
+  color: #9C77EE;
   background-color: #FFF8F3;
   cursor: pointer;
 }
-nav h3 span{
+nav h3 span, span{
   /* color: #FD6E0A; */
-  color: #FF3131;
+  color: #9C77EE;
 }
 nav ul {
   display: flex;
@@ -164,14 +165,17 @@ main{
 }
 .tech{
   padding: 20px 50px 20px 20px;
-  background-color: rgb(246, 243, 243);
+  /* background-color: rgb(246, 243, 243); */
+  background-color: #9C77EE;
   border-radius: 5px;
+  color: white;
 }
 
 .tech:hover{
-  background-color: #FF3131;
+  background-color:white;
   cursor: pointer;
-  color: white;
+  color: black;
+  box-shadow: 0px 20px 1px 5px #9C77EE;
 }
 
 .tech h1{
@@ -193,7 +197,7 @@ main{
   font-size: 30px;
   font-weight: bold;
   /* color: #FD6E0A; */
-  color: #FF3131;
+  color: #9C77EE;
 }
 .degree{
   font-size: 25px;
@@ -272,13 +276,13 @@ form input{
   border: none;
 }
 input:focus{
-  border: 2px solid #FF3131;
+  border: 2px solid #9C77EE;
   outline: none;
   background-color: black;
   color: white;
 }
 textarea:focus{
-  border: 2px solid #FF3131;
+  border: 2px solid #9C77EE;
   outline: none;
   background-color: black;
   color: white;
@@ -299,7 +303,10 @@ form textarea{
   margin-right: 15px;
   font-size: 25px;
   /* color: #FD6E0A; */
-  color: #FF3131;
+  color: #9C77EE;
+}
+.fa-facebook,.fa-instagram,.fa-linkedin{
+  color: white;
 }
 .fa-brands:hover{
  color: white;
@@ -312,6 +319,6 @@ form textarea{
 .copyright a{
   text-decoration: none;
   /* color: #FD6E0A; */
-  color: #FF3131;
+  color: #9C77EE;
   font-weight: 500;
 }
