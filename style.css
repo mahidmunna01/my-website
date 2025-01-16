@@ -208,10 +208,9 @@ main{
 .institution{
   font-size: 20px;
   font-weight: 900;
-  color: #757575;
 }
 .degree-description{
-  color: #757575;
+  color: white;
   font-size: 16px;
 }
 
@@ -246,6 +245,7 @@ footer{
 }
 .footer-section-description{
   padding-right: 20%;
+  color: white;
 }
 .footer-section{
  display: flex;
