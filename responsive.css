@@ -48,8 +48,10 @@
   padding: 0px 30px;
 }
 .about, .resume div h1{
-  padding: 10px 30px;
-  
+  padding: 20px 30px; 
+}
+.about{
+  margin: 5%; 
 }
 .about-description{
   margin-bottom: 5%;
@@ -62,10 +64,13 @@ padding: 0 30px;
   text-align: left;
   margin-top: 5%;
 }
+.footer-section .right-column{
+  width: 100%;
+}
 .copyright{
-  font-size: 15px;
+  font-size: 18px;
   padding: 20px 30px;
   text-align: left;
-  background-color:#010409 ;
+  background-color:#010409;
 }
 }
