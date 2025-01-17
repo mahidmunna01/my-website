@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:992px) {
  .header{
   height: auto;
   padding-bottom: 5%;
@@ -72,5 +72,18 @@ padding: 0 30px;
   padding: 20px 30px;
   text-align: left;
   background-color:#010409;
+}
+}
+@media screen and (min-width:992px) and (max-width:1400px){
+  body{
+    padding: 0% 5%;
+  }
+
+  .banner-profile-pic{
+  width: 50%;
+  margin: 10px;
+ }
+ .banner-content button{
+  margin-top: 5%;
 }
 }
