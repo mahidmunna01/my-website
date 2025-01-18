@@ -75,7 +75,7 @@ padding: 0 30px;
   padding: 0;
 }
 form input::placeholder,form textarea::placeholder{
- text-align: center;
+ 
  font-size: 1rem;
 }
 form textarea::placeholder{
