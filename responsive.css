@@ -60,25 +60,38 @@
 grid-template-columns: auto;
 padding: 0 30px;
 }
+/* footer */
 .footer-section-title{
-  text-align: left;
   margin-top: 5%;
 }
 .footer-section .right-column{
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-section{
+  text-align: center;
+}
+.footer-section-description{
+  padding: 0;
+}
+form input::placeholder,form textarea::placeholder{
+ text-align: center;
+ font-size: 1rem;
+}
+form textarea::placeholder{
+font-family: "Open Sans", serif;;
 }
 .copyright{
   font-size: 18px;
-  padding: 20px 30px;
-  text-align: left;
+  padding: 20px 0px;
   background-color:#010409;
 }
+
 }
 @media screen and (min-width:992px) and (max-width:1400px){
   body{
     padding: 0% 5%;
   }
-
   .banner-profile-pic{
   width: 50%;
   margin: 10px;
