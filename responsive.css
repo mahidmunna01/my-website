@@ -43,7 +43,11 @@
 .tech:hover{
   box-shadow: none;
 }
-.footer-section, .about-item, .skill-info,.technology-skill{
+.technology-skill{
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0px 30px;
+}
+.footer-section, .about-item, .skill-info{
   flex-direction: column;
   padding: 0px 30px;
 }
@@ -99,4 +103,10 @@ font-family: "Open Sans", serif;;
  .banner-content button{
   margin-top: 5%;
 }
+.technology-skill{
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 30px;
+}
+
+
 }

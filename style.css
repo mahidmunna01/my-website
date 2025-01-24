@@ -173,9 +173,10 @@ main{
 }
 
 .technology-skill{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   text-align: left;
-  gap: 20px;
+  gap: 30px;
   padding: 30px 0px;
 }
 .tech{
@@ -186,12 +187,11 @@ main{
   color: white;
   transition: 1s;
 }
-
 .tech:hover{
   background-color:white;
   cursor: pointer;
   color: black;
-  box-shadow: 0px 20px 1px 5px var(--branding-color);
+  box-shadow: 0px 10px 1px 5px var(--branding-color);
 }
 
 .tech h1{
